@@ -7,6 +7,6 @@ def save_me(request):
     return render(request, 'save_me/index.html')
 
 
-def marry_my(request):
-    return render(request, 'marry_my/index.html')
+def marry_me(request):
+    return render(request, 'marry_me/index.html')
 

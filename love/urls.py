@@ -7,5 +7,5 @@ from love import views
 urlpatterns = [
     url(r'^static/(?P<path>.*)$', static.serve, {'document_root': settings.STATIC_ROOT}, name='static'),
     url(r'^SaveMe', views.save_me),
-    url(r'^MarryMy', views.marry_my)
+    url(r'^MarryMe', views.marry_me)
 ]
