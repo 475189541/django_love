@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
+    'channels',
     'love',
 ]
 
@@ -69,6 +71,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'django_love.wsgi.application'
+ASGI_APPLICATION = 'django_love.routing.application'
 
 
 # Database
