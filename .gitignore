@@ -120,4 +120,4 @@ tests
 Pipfile*
 log/*.log
 log/*.pid
-
+log/*.status
